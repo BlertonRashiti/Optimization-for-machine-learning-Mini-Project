@@ -1,1 +1,1 @@
-# Optimization-for-machine-learning-Mini-Project
+# Optimization for machine learning : Mini-Project
