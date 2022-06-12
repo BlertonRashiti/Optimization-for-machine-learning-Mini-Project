@@ -1,33 +1,14 @@
 # Optimization for machine learning : Mini-Project
 ## Description
-The main goal of this project is to propose an algorithm that segments satellite images, more explicitly the algorithm will have to detect road portions on the image. We have at our disposal a set of train of 100 images, that is to say for each of the images an associated image in black and white, where the white will represent the portions of road detected and the black the rest. In short, each pixel of the images must be binary classified (road=1, background=0). We must then evaluate our model on a test set of 50 images.
 
-All data are available via [AIcrowd page](https://www.aicrowd.com/challenges/epfl-ml-road-segmentation).
-
-The best results obtained on AIcrowd:
-
-`Best F1 score`:
-* ID : 169531
-* Username : toni
-* F1 score : 87.0 %
-* Accuracy : 93.0 %
-
-`Best accuracy`:
-* ID : 169512
-* Username : toni
-* F1 score : 86.9 %
-* Accuracy : 93.2 %
 
 
 ## Reproduce our results
 
-One needs to download the following [file](https://drive.google.com/drive/folders/1QMR6vAgQ6qgouEpwKOUwgjHDPQXWfOF_?usp=sharing) ("model.h5") and add in the folder "files".
-
-If one simply wants to reproduce the **predictions** made (without recompiling the entire model which takes many hours), one should run the file `Predict.py`. It will create the groundtruths in the folder "test". 
 
 ## Team members
-* Thomas Hasler
-* Léa Grandoni
+* Camille Arruat
+* Clément Jurat-Pentiadou
 * Blerton Rashiti
 
 ## External libraries
@@ -36,14 +17,6 @@ We used the following libraries:
 * [keras](https://keras.io/)
 * [tensorflow](https://www.tensorflow.org/install/)
 * [Matplotlib](https://matplotlib.org/)
-* [numpy](https://numpy.org/)
-* [pandas](https://https://pandas.pydata.org/)
-* [tqdm](https://tqdm.github.io/)
-* [opencv](https://opencv.org/)
-* [os](https://docs.python.org/3/library/os.html)
-* [sys](https://docs.python.org/fr/3/library/sys.html)
-* [glob](https://docs.python.org/3/library/glob.html)
-* [Random](https://docs.python.org/3/library/random.html)
 
 ## Python code
 
