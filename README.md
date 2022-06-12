@@ -13,8 +13,6 @@
 
 ## External libraries
 We used the following libraries:
-* [scikit-learn](https://scikit-learn.org/stable/)
-* [keras](https://keras.io/)
 * [tensorflow](https://www.tensorflow.org/install/)
 * [Matplotlib](https://matplotlib.org/)
 
