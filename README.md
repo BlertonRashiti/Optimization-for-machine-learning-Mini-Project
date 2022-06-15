@@ -13,7 +13,7 @@
 
 ## External libraries
 We used the following libraries:
-* [tensorflow](https://www.tensorflow.org/install/)
+* [Pytorch](https://pytorch.org/)
 * [Matplotlib](https://matplotlib.org/)
 
 ## Python code
