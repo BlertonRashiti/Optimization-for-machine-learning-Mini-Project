@@ -1,4 +1,5 @@
 # Optimization for machine learning : Mini-Project
+### Study of different optimizers for a non-convex classification problem and comparison with a distributed method of optimization
 ## Description
 This project was done in the framework of the course optimization for machine learning given at EPFL.
 
