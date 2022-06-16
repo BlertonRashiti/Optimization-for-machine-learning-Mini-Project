@@ -12,13 +12,13 @@ We then studied a decentralized learning approach where the parameters of the mo
 * Clément Jurat-Pentiadou
 * Blerton Rashiti
 
-## External libraries
+## External libraries (Requirements)
 We used the following libraries:
 * [Pytorch](https://pytorch.org/)
 * [Matplotlib](https://matplotlib.org/)
 * [Numpy](https://numpy.org/)
 
-## Python code
+## Python code (Reproducibility)
 
 We have created several notebooks to realize this project:
 
