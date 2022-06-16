@@ -11,6 +11,7 @@
 We used the following libraries:
 * [Pytorch](https://pytorch.org/)
 * [Matplotlib](https://matplotlib.org/)
+* [Numpy](https://numpy.org/)
 
 ## Python code
 
