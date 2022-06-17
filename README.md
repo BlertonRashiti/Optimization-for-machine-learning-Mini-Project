@@ -20,13 +20,14 @@ We used the following libraries:
 
 ## Python code (Reproducibility)
 
-The main notebook is :
-* notebook.ipynb
-
-We have created several notebooks to realize this project:
-* Tune_hyperparameters_SGD.ipynb
-* grid_search_sign(um)SGD.ipynb : Searching the best hyper-parameters for SignSGD et Signum
-* notebook_adagrad.ipynb
-* notebook_adam.ipynb
+In the tuning_hyperparameters folder, there are several notebook files that were used to perform our grid searches for the optimal configurations for each optimizer. To reproduce the plots or the results related to this part, you just have to run these notebooks.
+* Tune_hyperparameters_SGD.ipynb : Searching the best hyper-parameters for SGD and SGD with momentum
+* grid_search_sign(um)SGD.ipynb : Searching the best hyper-parameters for SignSGD and Signum
+* notebook_adagrad.ipynb : Searching the best hyper-parameters for Adagrad
+* notebook_adam.ipynb : Searching the best hyper-parameters for Adam
 * comparison_workers.ipynb : Comparison between different neural nets and optimizers for a server-based implementation
 * Test - Error Feedback SignSGD.ipynb : Test of another server-based implementation, with error-feedback
+
+Then, the main notebook in which there is the analysis of the optimal optimizers and also the plots related to this part:
+*notebook.ipynb
+
