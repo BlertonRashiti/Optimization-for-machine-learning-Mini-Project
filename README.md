@@ -20,5 +20,13 @@ We used the following libraries:
 
 ## Python code (Reproducibility)
 
-We have created several notebooks to realize this project:
+The main notebook is :
+* notebook.ipynb
 
+We have created several notebooks to realize this project:
+* Tune_hyperparameters_SGD.ipynb
+* grid_search_sign(um)SGD.ipynb : Searching the best hyper-parameters for SignSGD et Signum
+* notebook_adagrad.ipynb
+* notebook_adam.ipynb
+* comparison_workers.ipynb : Comparison between different neural nets and optimizers for a server-based implementation
+* Test - Error Feedback SignSGD.ipynb : Test of another server-based implementation, with error-feedback
