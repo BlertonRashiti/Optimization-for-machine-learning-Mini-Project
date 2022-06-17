@@ -29,5 +29,5 @@ In the tuning_hyperparameters folder, there are several notebook files that were
 * Test - Error Feedback SignSGD.ipynb : Test of another server-based implementation, with error-feedback
 
 Then, the main notebook in which there is the analysis of the optimal optimizers and also the plots related to this part:
-*notebook.ipynb
+* notebook.ipynb
 
